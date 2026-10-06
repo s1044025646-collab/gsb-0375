@@ -1,0 +1,21 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "教学用 FTL 页映射与闪存块回收模拟后端",
+  "main": "dist/src/ftl.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test \"dist/test/*.test.js\"",
+    "start": "node dist/src/server.js",
+    "cli": "node dist/src/cli.js",
+    "demo": "node dist/src/cli.js demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}

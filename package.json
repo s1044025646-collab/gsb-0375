@@ -1,0 +1,14 @@
+{
+  "name": "ftl-teaching-sim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "教学用 FTL 页映射与闪存块回收模拟后端（SQLite）",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/ftl.test.js",
+    "start": "npm run build && node dist/src/server.js",
+    "cli": "npm run build --silent && node dist/src/cli.js",
+    "demo": "npm run build --silent && node dist/src/demo.js"
+  }
+}
+
